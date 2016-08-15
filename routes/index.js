@@ -16,8 +16,13 @@ router.get('/', function(req, res, next) {
   });
 });
 
-
-
+router.get('/:id', function(req, res, next) {
+  // Query the Topic model for a single topic
+  Topic.findById(req.params.id, function(err, topic) {
+    // Render the topic in JSON format
+    res.status(200).json(topic);
+  });
+});
 
 
 
