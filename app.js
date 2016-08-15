@@ -7,6 +7,7 @@ var bodyParser = require('body-parser');
 var mongoose = require('mongoose');
 var connect = require('connect');
 
+
 var routes = require('./routes/index');
 var users = require('./routes/users');
 
@@ -36,8 +37,10 @@ app.use(function(req, res, next) {
 
 // error handlers
 
+
 // Mongoose connection
 // mongoose.connect(process.env.DB_CONN_GA_EXPRESS);
+
 
 // development error handler
 // will print stacktrace
