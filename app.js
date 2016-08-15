@@ -6,7 +6,9 @@ var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
 var mongoose = require('mongoose');
 var connect = require('connect');
+var dotenv = require('dotenv');
 
+dotenv.load();
 
 var routes = require('./routes/index');
 var users = require('./routes/users');
@@ -25,6 +27,10 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
+
+// Mongoose connection
+mongoose.connect(process.env.RESOURCE_CENTER_DB);
+
 app.use('/', routes);
 app.use('/users', users);
 
@@ -36,10 +42,6 @@ app.use(function(req, res, next) {
 });
 
 // error handlers
-
-
-// Mongoose connection
-// mongoose.connect(process.env.DB_CONN_GA_EXPRESS);
 
 
 // development error handler
