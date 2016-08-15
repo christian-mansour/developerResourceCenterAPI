@@ -4,7 +4,6 @@ var favicon = require('serve-favicon');
 var logger = require('morgan');
 var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
-var mongoose = require('mongoose');
 var connect = require('connect');
 var dotenv = require('dotenv');
 
@@ -29,6 +28,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 
 // Mongoose connection
+var mongoose = require('mongoose');
 mongoose.connect(process.env.RESOURCE_CENTER_DB);
 
 app.use('/', routes);
