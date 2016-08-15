@@ -10,6 +10,6 @@ var resourceSchema = new mongoose.Schema({
 });
 
 
-var Resource = mongoose.model('Resource', resourceSchema);
 
-module.exports = Resource;
+
+module.exports = mongoose.model('resources', resourceSchema);
