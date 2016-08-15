@@ -4,7 +4,7 @@ var resourceSchema = Resource.schema;
 
 var topicSchema = new mongoose.Schema({
   name: { type: String, required: true },
-  resources: [ resourceSchema ] 
+  resources: resourceSchema 
 });
 
 
