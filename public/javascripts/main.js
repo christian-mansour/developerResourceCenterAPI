@@ -43,22 +43,22 @@ $(function() {
         var topicContainer = $('#topics');
 
         if(tutorial){
-          topicContainer.append(`<div class="tutorial"><p>${tutorial}</p></div>`);
+          topicContainer.append(`<div class="tutorial"><a href="${tutorial}">Intro Tutorial</a></div>`);
         }
         if(video){
-          topicContainer.append(`<div class="video"><p>${video}</p></div>`);
+          topicContainer.append(`<div class="video"><a href="${video}">Watch a Video</a></div>`);
         }
         if(documentation){
-          topicContainer.append(`<div class="documentation"><p>${documentation}</p></div>`);
+          topicContainer.append(`<div class="documentation"><a href="${documentation}">Documentation</a></div>`);
         }
         if(install){
-          topicContainer.append(`<div class="install"><p>${install}</p></div>`);
+          topicContainer.append(`<div class="install"><a href="${install}">Install</a></div>`);
         }
         if(cdn){
-          topicContainer.append(`<div class="cdn"><p>${cdn}</p></div>`);
+          topicContainer.append(`<div class="cdn"><a href="${cdn}">Get CDN</a></div>`);
         }
         if(guide){
-          topicContainer.append(`<div class="guide"><p>${guide}</p></div>`);
+          topicContainer.append(`<div class="guide"><a href="${guide}">Helpful Guide</a></div>`);
         }
       }
     }
