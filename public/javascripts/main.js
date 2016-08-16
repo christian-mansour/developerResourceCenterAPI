@@ -33,35 +33,35 @@ $(function() {
         // display each topic in html
         var topic = topics[i];
         $('#topics').append(`<div class="topic"><h3>${topic.name}</h3></div>`);
-        if(topic.resources.tutorial !== undefined){
-          $('#topics').append(`<div class="tutorial"><p>${topic.resources.tutorial}</p></div>`);
+
+        var tutorial = topic.resources.tutorial;
+        var video = topic.resources.video;
+        var documentation = topic.resources.documentation;
+        var install = topic.resources.install;
+        var cdn = topic.resources.cdn;
+        var guide = topic.resources.guide;
+        var topicContainer = $('#topics');
+
+        if(tutorial){
+          topicContainer.append(`<div class="tutorial"><p>${tutorial}</p></div>`);
         }
-        if(topic.resources.video !== undefined){
-          $('#topics').append(`<div class="video"><p>${topic.resources.video}</p></div>`);
+        if(video){
+          topicContainer.append(`<div class="video"><p>${video}</p></div>`);
         }
-        if(topic.resources.documentation !== undefined){
-          $('#topics').append(`<div class="documentation"><p>${topic.resources.documentation}</p></div>`);
+        if(documentation){
+          topicContainer.append(`<div class="documentation"><p>${documentation}</p></div>`);
         }
-        if(topic.resources.install !== undefined){
-          $('#topics').append(`<div class="install"><p>${topic.resources.install}</p></div>`);
+        if(install){
+          topicContainer.append(`<div class="install"><p>${install}</p></div>`);
         }
-        if(topic.resources.cdn !== undefined){
-          $('#topics').append(`<div class="cdn"><p>${topic.resources.cdn}</p></div>`);
+        if(cdn){
+          topicContainer.append(`<div class="cdn"><p>${cdn}</p></div>`);
         }
-        if(topic.resources.guide !== undefined){
-          $('#topics').append(`<div class="guide"><p>${topic.resources.guide}</p></div>`);
+        if(guide){
+          topicContainer.append(`<div class="guide"><p>${guide}</p></div>`);
         }
       }
-
-      // for (var i=0; i<topics.length; i++){
-      //   // display each topic in html
-      //   var topic = topics[i];
-      //   if(topic.resources.documentation !== undefined){
-      //     $('#topics').append(`<div class="topic"><h3>${topic.name}</h3><p>${topic.resources.documentation}</p></div>`)
-      //   }
-      // }
-
-    };
+    }
 
 loadTopics();
 });

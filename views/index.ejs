@@ -1,17 +1,49 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title><%= title %></title>
+    <title>Developer Resource Center</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://code.getmdl.io/1.2.0/material.indigo-pink.min.css">
     <link rel='stylesheet' href='/stylesheets/style.css' />
   </head>
   <body>
 
-    <section id="topics">
+      <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header mdl-layout--fixed-tabs">
+          <header class="mdl-layout__header">
+             <div class="mdl-layout__header-row">
+                <h1 id="header" class="mdl-layout-title">Developer Resource Center</h1>
+             </div>
+             <div class="mdl-layout__tab-bar mdl-js-ripple-effect">
+                <a href="#scroll-tab-1" class="mdl-layout__tab is-active">Resources</a>
+                <a href="#scroll-tab-2" class="mdl-layout__tab">API Documentation</a>
+             </div>
+          </header>
+          <main class="mdl-layout__content">
+             <section class="mdl-layout__tab-panel is-active" id="scroll-tab-1">
+                <div class="page-content">
+                  <div id="topics"></div>
+                </div>
+                <footer class="mdl-mini-footer">
+                     <div class="mdl-logo footer">&copy; 2016 Christian Mansour</div>
+                </footer>
+             </section>
+             <section class="mdl-layout__tab-panel" id="scroll-tab-2">
+                <div class="page-content">Tab 2 Contents</div>
+                <footer class="mdl-mini-footer">
+                     <div class="mdl-logo footer">&copy; 2016 Christian Mansour</div>
+                </footer>
+             </section>
+         </main>
+      </div>
 
-    </section>
 
+
+
+
+
+
+  <script defer src="https://code.getmdl.io/1.2.0/material.min.js"></script>
   <script type="text/javascript" src="//code.jquery.com/jquery-2.2.0.min.js"></script>
   <script type="text/javascript" src="/javascripts/main.js"></script>
-
   </body>
 </html>
