@@ -1,3 +1,22 @@
+main {
+  background-color: #C5CAE9;
+}
+
+h3 {
+  color: #fff;
+}
+
+.button {
+  margin: 0.5em 0;
+}
+
+.button a{
+  color: #000;
+  font-size: 16px;
+  text-decoration: none;
+  text-transform: lowercase;
+}
+
 .footer {
   margin: 0 auto;
 }

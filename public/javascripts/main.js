@@ -43,22 +43,22 @@ $(function() {
         var topicContainer = $('#topics');
 
         if(tutorial){
-          topicContainer.append(`<div class="tutorial"><a href="${tutorial}">Intro Tutorial</a></div>`);
+          topicContainer.append(`<div id="tutorial" class="button"><td><button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent"><a href="${tutorial}">tutorial</a></button></td>`);
         }
         if(video){
-          topicContainer.append(`<div class="video"><a href="${video}">Watch a Video</a></div>`);
+          topicContainer.append(`<div id="video" class="button"><td><button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent"><a href="${video}">watch a video</a></button></td>`);
         }
         if(documentation){
-          topicContainer.append(`<div class="documentation"><a href="${documentation}">Documentation</a></div>`);
+          topicContainer.append(`<div id="documentation" class="button"><td><button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent"><a href="${documentation}">documentation</a></button></td>`);
         }
         if(install){
-          topicContainer.append(`<div class="install"><a href="${install}">Install</a></div>`);
+          topicContainer.append(`<div id="install" class="button"><td><button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent"><a href="${install}">install</a></button></td>`);
         }
         if(cdn){
-          topicContainer.append(`<div class="cdn"><a href="${cdn}">Get CDN</a></div>`);
+          topicContainer.append(`<div id="cdn" class="button"><td><button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent"><a href="${cdn}">get cdn</a></button></td>`);
         }
         if(guide){
-          topicContainer.append(`<div class="guide"><a href="${guide}">Helpful Guide</a></div>`);
+          topicContainer.append(`<div id="guide" class="button"><td><button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent"><a href="${guide}">helpful guide</a></button></td>`);
         }
       }
     }
