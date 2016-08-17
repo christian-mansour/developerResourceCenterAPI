@@ -35,7 +35,7 @@
                        <h2 class="mdl-card__title-text">About the API</h2>
                     </div>
                     <div class="mdl-card__supporting-text">
-                       HTML5 is the next major revision of the HTML standard superseding HTML 4.01, XHTML 1.0, and XHTML 1.1. HTML5 is a standard for structuring and presenting content on the World Wide Web.
+                       Through the Developer Resource Center API your applications can retrieve our resources content, which includes topics and their associated resources. The base address of our api is <span id="api-address">developerRC.herokuapp.com</span> which has two available endpoints. These endpoints are open and do not require any special permissions.
                     </div>
                   </div>
                   <!-- /////////ENDPOINTS CARD////////// -->
@@ -44,7 +44,36 @@
                        <h2 class="mdl-card__title-text">Endpoints</h2>
                     </div>
                     <div class="mdl-card__supporting-text">
-                       HTML5 is the next major revision of the HTML standard superseding HTML 4.01, XHTML 1.0, and XHTML 1.1. HTML5 is a standard for structuring and presenting content on the World Wide Web.
+                      <p class="supporting-text">Our API gives external applications access to our topics and their associated resources.</p>
+                      <table class="mdl-data-table mdl-js-data-table mdl-shadow--2dp">
+                      <thead>
+                        <tr>
+                          <th class="mdl-data-table__cell--non-numeric">Method</th>
+                          <th class="mdl-data-table__cell--non-numeric">Endpoint</th>
+                          <th class="mdl-data-table__cell--non-numeric">Usage</th>
+                          <th class="mdl-data-table__cell--non-numeric">Returns</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+
+                        <!-- Row 1 -->
+                        <tr>
+                          <td class="mdl-data-table__cell--non-numeric">GET</td>
+                          <td class="mdl-data-table__cell--non-numeric">/api/topics</td>
+                          <td class="mdl-data-table__cell--non-numeric">Get several topics</td>
+                          <td class="mdl-data-table__cell--non-numeric">topics</td>
+                        </tr>
+
+                        <!-- Row 2 -->
+                        <tr>
+                          <td class="mdl-data-table__cell--non-numeric">GET</td>
+                          <td class="mdl-data-table__cell--non-numeric">/api/topics/{id}</td>
+                          <td class="mdl-data-table__cell--non-numeric">Get a single topic</td>
+                          <td class="mdl-data-table__cell--non-numeric">topic</td>
+                        </tr>
+
+                      </tbody>
+                    </table>
                     </div>
                   </div>
                   <!-- ////////REQUESTS CARD/////////// -->
@@ -53,7 +82,24 @@
                        <h2 class="mdl-card__title-text">Requests</h2>
                     </div>
                     <div class="mdl-card__supporting-text">
-                       HTML5 is the next major revision of the HTML standard superseding HTML 4.01, XHTML 1.0, and XHTML 1.1. HTML5 is a standard for structuring and presenting content on the World Wide Web.
+                       <p class="supporting-text">The Developer Resource Center API is based on REST principles: data resources are accessed via standard HTTPS requests in UTF-8 format to an API endpoint. Where possible, the API strives to use appropriate HTTP verbs for each action:</p>
+                       <table class="mdl-data-table mdl-js-data-table mdl-shadow--2dp">
+                       <thead>
+                         <tr>
+                           <th class="mdl-data-table__cell--non-numeric">Method</th>
+                           <th class="mdl-data-table__cell--non-numeric">Description</th>
+                         </tr>
+                       </thead>
+                       <tbody>
+
+                         <!-- Row 1 -->
+                         <tr>
+                           <td class="mdl-data-table__cell--non-numeric">GET</td>
+                           <td class="mdl-data-table__cell--non-numeric">Used for retrieving resources.</td>
+                         </tr>
+
+                       </tbody>
+                     </table>
                     </div>
                   </div>
                   <!-- /////////RESPONSES CARD//////////// -->
@@ -62,7 +108,7 @@
                        <h2 class="mdl-card__title-text">Responses</h2>
                     </div>
                     <div class="mdl-card__supporting-text">
-                       HTML5 is the next major revision of the HTML standard superseding HTML 4.01, XHTML 1.0, and XHTML 1.1. HTML5 is a standard for structuring and presenting content on the World Wide Web.
+                      <p class="supporting-text">All data is received as a JSON object. See an example of a retrievable object.</p>
                     </div>
                   </div>
                 </div>

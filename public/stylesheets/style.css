@@ -43,3 +43,8 @@ h3 {
   text-transform: uppercase;
   letter-spacing: 0.1em;
 }
+
+#api-address {
+  font-weight: bold;
+  background-color: #edeaea;
+}
