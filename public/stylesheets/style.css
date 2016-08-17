@@ -39,14 +39,28 @@ table {
   margin: 4em auto;
 }
 
-.square-card.mdl-card {
-  width: 30%;
-  margin: 4em auto;
+.mdl-card__media > img {
+  max-width: 100%;
+  height: 200px;
+}
+
+.mdl-card__actions {
+  display: flex;
+  box-sizing:border-box;
+  align-items: center;
+}
+.mdl-card__actions > .mdl-button--icon {
+  margin-right: 3px;
+  margin-left: 3px;
 }
 
 .replit-title {
   margin: 0 auto;
   display: block;
+}
+
+.black-icon {
+  color: #000;
 }
 
 .go {
