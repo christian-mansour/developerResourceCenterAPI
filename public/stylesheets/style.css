@@ -4,6 +4,10 @@ main {
   background-repeat: no-repeat;
 }
 
+footer {
+  margin-top: 6em;
+}
+
 h3 {
   color: #fff;
   font-size: 26px;
@@ -21,8 +25,13 @@ h3 {
   text-transform: lowercase;
 }
 
+.wide-card.mdl-card {
+  width: 60%;
+  margin: 4em auto;
+}
+
 .footer {
-  margin: 0 auto;
+  margin: 0 auto;å
 }
 
 #topics {
