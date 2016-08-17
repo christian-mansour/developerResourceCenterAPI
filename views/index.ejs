@@ -108,7 +108,40 @@
                        <h2 class="mdl-card__title-text">Responses</h2>
                     </div>
                     <div class="mdl-card__supporting-text">
-                      <p class="supporting-text">All data is received as a JSON object. See an example of a retrievable object.</p>
+                      <p class="supporting-text">All data is received as a JSON object. Here's an example of a retrievable object:</p>
+                      <table class="mdl-data-table mdl-js-data-table mdl-shadow--2dp">
+                      <thead>
+                        <tr>
+                          <th class="mdl-data-table__cell--non-numeric">Key</th>
+                          <th class="mdl-data-table__cell--non-numeric">Value Type</th>
+                          <th class="mdl-data-table__cell--non-numeric">Value Descrition</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+
+                        <!-- Row 1 -->
+                        <tr>
+                          <td class="mdl-data-table__cell--non-numeric">topic</td>
+                          <td class="mdl-data-table__cell--non-numeric">string</td>
+                          <td class="mdl-data-table__cell--non-numeric">The name of the topic.</td>
+                        </tr>
+
+                        <!-- Row 2 -->
+                        <tr>
+                          <td class="mdl-data-table__cell--non-numeric">resources</td>
+                          <td class="mdl-data-table__cell--non-numeric">object</td>
+                          <td class="mdl-data-table__cell--non-numeric">An object of resources associated with the topic.</td>
+                        </tr>
+
+                        <!-- Row 3 -->
+                        <tr>
+                          <td class="mdl-data-table__cell--non-numeric">_id</td>
+                          <td class="mdl-data-table__cell--non-numeric">string</td>
+                          <td class="mdl-data-table__cell--non-numeric">The Developer Resource Center ID for the topic.</td>
+                        </tr>
+
+                      </tbody>
+                    </table>
                     </div>
                   </div>
                 </div>

@@ -32,7 +32,7 @@ $(function() {
       for (var i=0; i<topics.length; i++){
         // display each topic in html
         var topic = topics[i];
-        $('#topics').append(`<div class="topic"><h3>${topic.name}</h3></div>`);
+        $('#topics').append(`<div class="topic"><h3>${topic.topic}</h3></div>`);
 
         var tutorial = topic.resources.tutorial;
         var video = topic.resources.video;
