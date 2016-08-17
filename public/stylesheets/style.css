@@ -1,9 +1,13 @@
 main {
-  background-color: #C5CAE9;
+  background-image: url('http://mak-teams.com/wp-content/uploads/2016/05/web_developer_wallpaper__white__by_plusjack-d7bmuby.jpg');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
 }
 
 h3 {
   color: #fff;
+  font-size: 26px;
+  margin-top: 2em;
 }
 
 .button {
@@ -21,6 +25,12 @@ h3 {
   margin: 0 auto;
 }
 
+#topics {
+  padding-left: 9em;
+}
+
 #header {
   margin: 0 auto;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
 }
