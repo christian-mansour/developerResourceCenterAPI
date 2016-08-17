@@ -15,7 +15,12 @@ h3 {
 }
 
 th {
+  background-color: #ddd8d8;
   text-transform: uppercase;
+}
+
+table {
+  width: 100%;
 }
 
 .button {
@@ -35,7 +40,15 @@ th {
 }
 
 .footer {
-  margin: 0 auto;å
+  margin: 0 auto;
+}
+
+.mdl-mini-footer {
+  background: #616161;
+  background: -webkit-linear-gradient(#757575, #616161);
+  background: -o-linear-gradient(#757575, #616161);
+  background: -moz-linear-gradient(#757575, #616161);
+  background: linear-gradient(#757575, #616161);
 }
 
 #topics {
