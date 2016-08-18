@@ -6,6 +6,8 @@ main {
 
 footer {
   margin-top: 6em;
+  text-transform: uppercase;
+  font-size: 12px;
 }
 
 h3 {
