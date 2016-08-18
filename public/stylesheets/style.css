@@ -4,6 +4,13 @@ main {
   background-repeat: no-repeat;
 }
 
+@media (max-width: 740px) {
+  main {
+    background-image:url();
+    background-color: #03A9F4;
+  }
+}
+
 footer {
   margin-top: 6em;
   text-transform: uppercase;
