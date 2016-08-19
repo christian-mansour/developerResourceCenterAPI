@@ -20,6 +20,7 @@ Before I began coding my API, I did the following:
 2. ERD
 3. Wireframe
 4. Set my day-to-day goals
- 
+
+![Wireframe](public/images/wireframe.png)
 
 
