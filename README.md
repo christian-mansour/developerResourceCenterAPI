@@ -16,11 +16,23 @@ I used CSS to style everything along with Google's Material Design Lite to make 
 
 ## Approach Taken
 Before I began coding my API, I did the following:
-1. User Stories
-2. ERD
-3. Wireframe
-4. Set my day-to-day goals
+* User Stories
+* ERD
+* Wireframe
+* Set my day-to-day goals
 
 ![Wireframe](public/images/wireframe.png)
+
+To begin my project, I created a local repository and created a second branch. 
+I completed my MVP, added a bonus feature, then added material design lite.
+
+## User Stories
+* User comes to site
+* User clicks on any link of their choice
+* User views API documentation in order to start using the API for their own project
+* User clicks the repl.it tab to practice coding
+
+## Moving Forward
+I would like to add more data to my API and style the resources tab differently to be more user friendly.
 
 
