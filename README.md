@@ -9,7 +9,7 @@ Developer Resource Center is an API for developers to receive quick access to do
 ![Landing Page](public/images/landing-page.png)
  
 ## Technologies Used
-Node.js, Express.js, NoSQL with MongoDB, Mongoose, Material Design Lite, HTML5, CSS3, JavaScript, jQuery, AJAX
+Node.js, Express.js, MongoDB, Mongoose, Material Design Lite, HTML5, CSS3, JavaScript, jQuery, AJAX
 
 I used the MEN stack (MongoDB, Express, Node) to build a database for my API and to build routes for GET requests to the endpoints of my API.
 
