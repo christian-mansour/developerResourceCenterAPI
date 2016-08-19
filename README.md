@@ -7,7 +7,20 @@ Developer Resource Center is an API for developers to receive quick access to do
  
 ## Technologies Used
 Node.js, Express.js, NoSQL with MongoDB, Mongoose, Material Design Lite, HTML5, CSS3, JavaScript, jQuery, AJAX
- 
- 
+
+I used the MEN stack (MongoDB, Express, Node) to build a database for my API and to build routes for GET requests to the endpoints of my API.
+
+I used Mongoose to create and save data into my database on mLab. mLab is the hub that houses all the topics and resources of my API.
+
+I used CSS to style everything along with Google's Material Design Lite to make my page extremely user friendly.
+
+## Approach Taken
+Before I began coding my API, I did the following:
+1. User Stories
+2. ERD
+3. Wireframe
+4. Set my day-to-day goals
+
+![Wireframe](public/images/wireframe.png)
 
 
